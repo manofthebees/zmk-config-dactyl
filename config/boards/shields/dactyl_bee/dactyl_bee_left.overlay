@@ -14,5 +14,6 @@
         , <&xiao_d 2 (GPIO_ACTIVE_HIGH)> // col2
         , <&xiao_d 3 (GPIO_ACTIVE_HIGH)> // col3
         , <&xiao_d 4 (GPIO_ACTIVE_HIGH)> // col4
+        , <&xiao_d 5 (GPIO_ACTIVE_HIGH)> // col5
         ;
 };
