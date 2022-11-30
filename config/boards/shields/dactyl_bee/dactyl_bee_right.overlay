@@ -1,4 +1,4 @@
-#include "skeletyl.dtsi"
+#include "dactyl_bee.dtsi"
 
 &default_transform { // The matrix transform for this board is 5
     col-offset = <6>;

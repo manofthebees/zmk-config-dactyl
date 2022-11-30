@@ -1,4 +1,4 @@
-#include "skeletyl.dtsi"
+#include "dactyl_bee.dtsi"
 
 &kscan0 {
     row-gpios
