@@ -1,0 +1,7 @@
+config SHIELD_DACTYL_BEE_LEFT
+    def bool $(shields_list_contains, dactyl_bee_left)
+    select SHIELD_DACTYL_BEE
+
+config SHIELD_DACTYL_BEE_RIGHT
+    def bool $(shields_list_contains, dactyl_bee_right)
+    select SHIELD_DACTYL_BEE

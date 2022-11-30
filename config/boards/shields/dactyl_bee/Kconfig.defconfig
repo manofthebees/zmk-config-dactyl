@@ -1,0 +1,16 @@
+if SHIELD_DACTYL_BEE_LEFT
+ 
+config ZMK_KEYBOARD_NAME
+    default "4x6 dactyl_bee"
+ 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+ 
+endif
+ 
+if SHIELD_DACTYL_BEE_LEFT || SHIELD_DACTYL_BEE_RIGHT
+ 
+config ZMK_SPLIT
+    default y
+ 
+endif
